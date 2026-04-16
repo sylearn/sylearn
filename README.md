@@ -4,20 +4,6 @@
 
 <img width="100%" src="./.github/assets/hero-card.svg" alt="sylearn hero card"/>
 
-<br/>
-
-<sub>
-  <strong>AI Developer</strong> &nbsp;&nbsp;·&nbsp;&nbsp;
-  <strong>Researcher</strong> &nbsp;&nbsp;·&nbsp;&nbsp;
-  <strong>Open Source Builder</strong>
-</sub>
-
-<br/>
-
-<sub>
-  Designing calm software for intelligence, science, and everyday code.
-</sub>
-
 <br/><br/>
 
 <!-- Minimal Profile Badges -->
