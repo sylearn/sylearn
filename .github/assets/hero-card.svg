@@ -1,0 +1,144 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">sylearn hero card</title>
+  <desc id="desc">Minimal profile hero card for sylearn with layered gradients, restrained typography, and a calm product-style layout.</desc>
+  <defs>
+    <linearGradient id="bgLight" x1="140" y1="32" x2="1018" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.45" stop-color="#F7F9FC"/>
+      <stop offset="1" stop-color="#EEF3F8"/>
+    </linearGradient>
+    <linearGradient id="bgDark" x1="140" y1="32" x2="1018" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0D12"/>
+      <stop offset="0.42" stop-color="#11151D"/>
+      <stop offset="1" stop-color="#171C25"/>
+    </linearGradient>
+    <linearGradient id="lineLight" x1="184" y1="94" x2="1016" y2="318" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DCE4EE"/>
+      <stop offset="1" stop-color="#BFD0E4"/>
+    </linearGradient>
+    <linearGradient id="lineDark" x1="184" y1="94" x2="1016" y2="318" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2D3A4D"/>
+      <stop offset="1" stop-color="#4C6B96"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1014 108) rotate(135.454) scale(272.612 214.306)">
+      <stop stop-color="#6AA7FF"/>
+      <stop offset="1" stop-color="#6AA7FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowWhite" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(932 300) rotate(153.639) scale(360.614 265.687)">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="612" y="-16" width="648" height="504" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+    <style>
+      :root {
+        --bg: url(#bgLight);
+        --line: url(#lineLight);
+        --headline: #0F172A;
+        --body: #475569;
+        --muted: #64748B;
+        --chip-bg: rgba(255,255,255,0.72);
+        --chip-stroke: rgba(148,163,184,0.28);
+        --card-stroke: rgba(148,163,184,0.26);
+        --panel-fill: rgba(255,255,255,0.62);
+        --shadow: rgba(15,23,42,0.06);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: url(#bgDark);
+          --line: url(#lineDark);
+          --headline: #F8FAFC;
+          --body: #CBD5E1;
+          --muted: #94A3B8;
+          --chip-bg: rgba(15,23,42,0.42);
+          --chip-stroke: rgba(148,163,184,0.18);
+          --card-stroke: rgba(148,163,184,0.14);
+          --panel-fill: rgba(15,23,42,0.36);
+          --shadow: rgba(2,6,23,0.32);
+        }
+      }
+      .headline {
+        font-family: "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+        font-size: 60px;
+        font-weight: 700;
+        letter-spacing: -1.8px;
+        fill: var(--headline);
+      }
+      .kicker {
+        font-family: "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 3.6px;
+        text-transform: uppercase;
+        fill: var(--muted);
+      }
+      .body {
+        font-family: "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        letter-spacing: -0.2px;
+        fill: var(--body);
+      }
+      .micro {
+        font-family: "SF Mono", "Menlo", "Monaco", monospace;
+        font-size: 14px;
+        letter-spacing: 1.2px;
+        fill: var(--muted);
+      }
+      .chip {
+        fill: var(--chip-bg);
+        stroke: var(--chip-stroke);
+      }
+      .panel {
+        fill: var(--panel-fill);
+        stroke: var(--card-stroke);
+      }
+      .outline {
+        fill: var(--bg);
+        stroke: var(--card-stroke);
+      }
+      .rule {
+        stroke: var(--line);
+        stroke-width: 1;
+      }
+    </style>
+  </defs>
+
+  <rect x="18" y="18" width="1164" height="384" rx="36" class="outline"/>
+  <g opacity="0.95">
+    <path d="M78 84H1122" class="rule"/>
+    <path d="M78 336H1122" class="rule"/>
+  </g>
+
+  <g filter="url(#blur)" opacity="0.82">
+    <circle cx="1014" cy="108" r="168" fill="url(#glowBlue)"/>
+    <circle cx="932" cy="300" r="140" fill="url(#glowWhite)"/>
+  </g>
+
+  <rect x="76" y="74" width="146" height="36" rx="18" class="chip"/>
+  <text x="149" y="97" text-anchor="middle" class="micro">PROFILE / 2026</text>
+
+  <text x="76" y="160" class="kicker">SYLEARN</text>
+  <text x="76" y="228" class="headline">Build tools that feel inevitable.</text>
+  <text x="76" y="270" class="body">AI systems, scientific software, and product-grade developer experiences.</text>
+
+  <g>
+    <rect x="76" y="300" width="208" height="46" rx="23" class="chip"/>
+    <text x="180" y="329" text-anchor="middle" class="micro">AI DEVELOPER</text>
+
+    <rect x="300" y="300" width="184" height="46" rx="23" class="chip"/>
+    <text x="392" y="329" text-anchor="middle" class="micro">RESEARCHER</text>
+
+    <rect x="500" y="300" width="164" height="46" rx="23" class="chip"/>
+    <text x="582" y="329" text-anchor="middle" class="micro">BUILDER</text>
+  </g>
+
+  <g>
+    <rect x="788" y="148" width="312" height="132" rx="28" class="panel"/>
+    <text x="822" y="186" class="micro">CURRENT FOCUS</text>
+    <text x="822" y="220" class="body">Calm interfaces for agents</text>
+    <text x="822" y="250" class="body">Materials science x AI tooling</text>
+    <text x="822" y="280" class="body">CLI products with real polish</text>
+  </g>
+</svg>

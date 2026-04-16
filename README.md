@@ -2,21 +2,21 @@
 
 <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=220&section=header&text=sylearn&fontSize=72&fontColor=58a6ff&animation=fadeIn&fontAlignY=38"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,50:f6f8fa,100:ffffff&height=220&section=header&text=sylearn&fontSize=72&fontColor=0969da&animation=fadeIn&fontAlignY=38"/>
-  <img width="100%" alt="header"/>
-</picture>
+<img width="100%" src="./.github/assets/hero-card.svg" alt="sylearn hero card"/>
 
 <br/>
 
-<a href="https://github.com/sylearn">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=SF+Mono&weight=400&size=17&letterSpacing=0.6px&duration=3500&pause=1500&color=8B949E&center=true&vCenter=true&repeat=true&width=700&height=48&lines=%E2%9C%A6+AI+Developer+%C2%B7+Researcher+%C2%B7+Open+Source+Creator+%E2%9C%A6;Crafting+intelligent+tools+at+the+intersection+of+AI+%26+Science"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=SF+Mono&weight=400&size=17&letterSpacing=0.6px&duration=3500&pause=1500&color=656D76&center=true&vCenter=true&repeat=true&width=700&height=48&lines=%E2%9C%A6+AI+Developer+%C2%B7+Researcher+%C2%B7+Open+Source+Creator+%E2%9C%A6;Crafting+intelligent+tools+at+the+intersection+of+AI+%26+Science"/>
-    <img width="700" alt="Typing SVG"/>
-  </picture>
-</a>
+<sub>
+  <strong>AI Developer</strong> &nbsp;&nbsp;·&nbsp;&nbsp;
+  <strong>Researcher</strong> &nbsp;&nbsp;·&nbsp;&nbsp;
+  <strong>Open Source Builder</strong>
+</sub>
+
+<br/>
+
+<sub>
+  Designing calm software for intelligence, science, and everyday code.
+</sub>
 
 <br/><br/>
 
