@@ -153,19 +153,27 @@ currently_building:
 <br/>
 
 <a href="https://github.com/Significant-Gravitas/AutoGPT/pull/7110">
-  <img src="https://img.shields.io/badge/AutoGPT-Fix%20ImportError%20for%20validate__yaml__file-58a6ff?style=flat-square&logo=github&labelColor=0d1117" alt="AutoGPT"/>
-</a>&nbsp;
-<img src="https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT?style=flat-square&label=⭐&labelColor=0d1117&color=161b22" alt="stars"/>
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Significant-Gravitas&repo=AutoGPT&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&show_owner=true"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=Significant-Gravitas&repo=AutoGPT&hide_border=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=656d76&show_owner=true"/>
+    <img width="400" alt="AutoGPT"/>
+  </picture>
+</a>&nbsp;&nbsp;
 <a href="https://github.com/FoundationAgents/OpenManus/pull/14">
-  <img src="https://img.shields.io/badge/OpenManus-Fix%20Pydantic%20V2%20Compatibility-58a6ff?style=flat-square&logo=github&labelColor=0d1117" alt="OpenManus"/>
-</a>&nbsp;
-<img src="https://img.shields.io/github/stars/FoundationAgents/OpenManus?style=flat-square&label=⭐&labelColor=0d1117&color=161b22" alt="stars"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=FoundationAgents&repo=OpenManus&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&show_owner=true"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=FoundationAgents&repo=OpenManus&hide_border=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=656d76&show_owner=true"/>
+    <img width="400" alt="OpenManus"/>
+  </picture>
+</a>
 
 <a href="https://github.com/aiming-lab/AutoResearchClaw/pull/102">
-  <img src="https://img.shields.io/badge/AutoResearchClaw-Fix%20Import%20Path%20%26%20Resource%20Leaks-58a6ff?style=flat-square&logo=github&labelColor=0d1117" alt="AutoResearchClaw"/>
-</a>&nbsp;
-<img src="https://img.shields.io/github/stars/aiming-lab/AutoResearchClaw?style=flat-square&label=⭐&labelColor=0d1117&color=161b22" alt="stars"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=aiming-lab&repo=AutoResearchClaw&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&show_owner=true"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=aiming-lab&repo=AutoResearchClaw&hide_border=true&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=656d76&show_owner=true"/>
+    <img width="400" alt="AutoResearchClaw"/>
+  </picture>
+</a>
 
 </div>
 
