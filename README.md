@@ -12,9 +12,9 @@
 
 <a href="https://github.com/sylearn">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=SF+Mono&weight=400&size=18&letterSpacing=1.2px&duration=3500&pause=1500&color=8B949E&center=true&vCenter=true&repeat=true&width=560&height=45&lines=%E2%9C%A6+AI+Developer+%C2%B7+Researcher+%C2%B7+Open+Source+Creator+%E2%9C%A6;Crafting+intelligent+tools+at+the+intersection+of+AI+%26+Science"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=SF+Mono&weight=400&size=18&letterSpacing=1.2px&duration=3500&pause=1500&color=656D76&center=true&vCenter=true&repeat=true&width=560&height=45&lines=%E2%9C%A6+AI+Developer+%C2%B7+Researcher+%C2%B7+Open+Source+Creator+%E2%9C%A6;Crafting+intelligent+tools+at+the+intersection+of+AI+%26+Science"/>
-    <img alt="Typing SVG"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=SF+Mono&weight=400&size=17&letterSpacing=0.6px&duration=3500&pause=1500&color=8B949E&center=true&vCenter=true&repeat=true&width=700&height=48&lines=%E2%9C%A6+AI+Developer+%C2%B7+Researcher+%C2%B7+Open+Source+Creator+%E2%9C%A6;Crafting+intelligent+tools+at+the+intersection+of+AI+%26+Science"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=SF+Mono&weight=400&size=17&letterSpacing=0.6px&duration=3500&pause=1500&color=656D76&center=true&vCenter=true&repeat=true&width=700&height=48&lines=%E2%9C%A6+AI+Developer+%C2%B7+Researcher+%C2%B7+Open+Source+Creator+%E2%9C%A6;Crafting+intelligent+tools+at+the+intersection+of+AI+%26+Science"/>
+    <img width="700" alt="Typing SVG"/>
   </picture>
 </a>
 
