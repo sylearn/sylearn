@@ -1,125 +1,41 @@
-<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">sylearn hero card</title>
-  <desc id="desc">Minimal profile hero card for sylearn with restrained typography, soft gradients, and a simplified premium layout.</desc>
+<svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">sylearn</title>
+  <desc id="desc">sylearn – AI Developer &amp; Researcher at Nanjing University</desc>
   <defs>
-    <linearGradient id="bgLight" x1="140" y1="32" x2="1018" y2="390" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFFFFF"/>
-      <stop offset="0.45" stop-color="#F7F9FC"/>
-      <stop offset="1" stop-color="#EEF3F8"/>
-    </linearGradient>
-    <linearGradient id="bgDark" x1="140" y1="32" x2="1018" y2="390" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B0D12"/>
-      <stop offset="0.42" stop-color="#11151D"/>
-      <stop offset="1" stop-color="#171C25"/>
-    </linearGradient>
-    <linearGradient id="lineLight" x1="184" y1="94" x2="1016" y2="318" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#DCE4EE"/>
-      <stop offset="1" stop-color="#BFD0E4"/>
-    </linearGradient>
-    <linearGradient id="lineDark" x1="184" y1="94" x2="1016" y2="318" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2D3A4D"/>
-      <stop offset="1" stop-color="#4C6B96"/>
-    </linearGradient>
-    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1014 108) rotate(135.454) scale(272.612 214.306)">
-      <stop stop-color="#6AA7FF"/>
-      <stop offset="1" stop-color="#6AA7FF" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowWhite" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 290) rotate(153.639) scale(360.614 265.687)">
-      <stop stop-color="#FFFFFF"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="blur" x="700" y="8" width="520" height="430" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="34"/>
-    </filter>
     <style>
       :root {
-        --bg: url(#bgLight);
-        --line: url(#lineLight);
-        --headline: #0F172A;
-        --body: #475569;
-        --muted: #64748B;
-        --chip-bg: rgba(255,255,255,0.72);
-        --chip-stroke: rgba(148,163,184,0.28);
-        --card-stroke: rgba(148,163,184,0.26);
+        --bg: #ffffff;
+        --border: #d0d7de;
+        --primary: #1F2328;
+        --secondary: #656d76;
+        --tertiary: #8b949e;
+        --accent: #0969da;
       }
       @media (prefers-color-scheme: dark) {
         :root {
-          --bg: url(#bgDark);
-          --line: url(#lineDark);
-          --headline: #F8FAFC;
-          --body: #CBD5E1;
-          --muted: #94A3B8;
-          --chip-bg: rgba(15,23,42,0.42);
-          --chip-stroke: rgba(148,163,184,0.18);
-          --card-stroke: rgba(148,163,184,0.14);
+          --bg: #0d1117;
+          --border: #30363d;
+          --primary: #e6edf3;
+          --secondary: #8b949e;
+          --tertiary: #6e7681;
+          --accent: #58a6ff;
         }
-      }
-      .headline {
-        font-family: "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
-        font-size: 68px;
-        font-weight: 700;
-        letter-spacing: -2.3px;
-        fill: var(--headline);
-      }
-      .kicker {
-        font-family: "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
-        font-size: 14px;
-        font-weight: 600;
-        letter-spacing: 4.2px;
-        text-transform: uppercase;
-        fill: var(--muted);
-      }
-      .body {
-        font-family: "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
-        font-size: 28px;
-        font-weight: 500;
-        letter-spacing: -0.6px;
-        fill: var(--body);
-      }
-      .micro {
-        font-family: "SF Mono", "Menlo", "Monaco", monospace;
-        font-size: 14px;
-        letter-spacing: 1.6px;
-        fill: var(--muted);
-      }
-      .chip {
-        fill: var(--chip-bg);
-        stroke: var(--chip-stroke);
-      }
-      .outline {
-        fill: var(--bg);
-        stroke: var(--card-stroke);
-      }
-      .rule {
-        stroke: var(--line);
-        stroke-width: 1;
       }
     </style>
   </defs>
 
-  <rect x="18" y="18" width="1164" height="384" rx="36" class="outline"/>
-  <g opacity="0.95">
-    <path d="M78 84H1122" class="rule"/>
-    <path d="M78 352H1122" class="rule"/>
-  </g>
+  <!-- Card -->
+  <rect x="0.5" y="0.5" width="1199" height="219" rx="6" fill="var(--bg)" stroke="var(--border)"/>
 
-  <g filter="url(#blur)" opacity="0.8">
-    <circle cx="1040" cy="124" r="148" fill="url(#glowBlue)"/>
-    <circle cx="980" cy="304" r="112" fill="url(#glowWhite)"/>
-  </g>
+  <!-- Accent mark -->
+  <rect x="56" y="52" width="32" height="3" rx="1.5" fill="var(--accent)"/>
 
-  <rect x="76" y="74" width="128" height="34" rx="17" class="chip"/>
-  <text x="140" y="96" text-anchor="middle" class="micro">SYLEARN</text>
+  <!-- Name -->
+  <text x="56" y="96" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="600" fill="var(--primary)" letter-spacing="-0.8">sylearn</text>
 
-  <text x="76" y="168" class="kicker">AI DEVELOPER / RESEARCHER</text>
-  <text x="76" y="244" class="headline">Quietly powerful.</text>
-  <text x="76" y="292" class="body">Tools for AI, science, and code.</text>
+  <!-- Role -->
+  <text x="56" y="132" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="var(--secondary)">AI Developer · Researcher · Open Source Builder</text>
 
-  <g>
-    <rect x="76" y="320" width="186" height="44" rx="22" class="chip"/>
-    <text x="169" y="348" text-anchor="middle" class="micro">BUILD</text>
-
-    <rect x="278" y="320" width="186" height="44" rx="22" class="chip"/>
-    <text x="371" y="348" text-anchor="middle" class="micro">RESEARCH</text>
-  </g>
+  <!-- Affiliation -->
+  <text x="56" y="164" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="var(--tertiary)">Nanjing University · Computational Materials Science × AI</text>
 </svg>
