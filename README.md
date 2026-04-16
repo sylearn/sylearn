@@ -144,6 +144,33 @@ currently_building:
 
 <br/>
 
+<!-- ═══════════════════════════ OPEN SOURCE CONTRIBUTIONS ═══════════════════════════ -->
+
+<div align="center">
+
+### 🌍 Open Source Contributions
+
+<br/>
+
+<a href="https://github.com/Significant-Gravitas/AutoGPT/pull/7110">
+  <img src="https://img.shields.io/badge/AutoGPT-Fix%20ImportError%20for%20validate__yaml__file-58a6ff?style=flat-square&logo=github&labelColor=0d1117" alt="AutoGPT"/>
+</a>&nbsp;
+<img src="https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT?style=flat-square&label=⭐&labelColor=0d1117&color=161b22" alt="stars"/>
+
+<a href="https://github.com/FoundationAgents/OpenManus/pull/14">
+  <img src="https://img.shields.io/badge/OpenManus-Fix%20Pydantic%20V2%20Compatibility-58a6ff?style=flat-square&logo=github&labelColor=0d1117" alt="OpenManus"/>
+</a>&nbsp;
+<img src="https://img.shields.io/github/stars/FoundationAgents/OpenManus?style=flat-square&label=⭐&labelColor=0d1117&color=161b22" alt="stars"/>
+
+<a href="https://github.com/aiming-lab/AutoResearchClaw/pull/102">
+  <img src="https://img.shields.io/badge/AutoResearchClaw-Fix%20Import%20Path%20%26%20Resource%20Leaks-58a6ff?style=flat-square&logo=github&labelColor=0d1117" alt="AutoResearchClaw"/>
+</a>&nbsp;
+<img src="https://img.shields.io/github/stars/aiming-lab/AutoResearchClaw?style=flat-square&label=⭐&labelColor=0d1117&color=161b22" alt="stars"/>
+
+</div>
+
+<br/>
+
 <!-- ═══════════════════════════ TECH STACK ═══════════════════════════ -->
 
 <div align="center">
