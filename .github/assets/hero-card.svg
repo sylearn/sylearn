@@ -60,9 +60,9 @@
       }
       .headline {
         font-family: "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
-        font-size: 60px;
+        font-size: 54px;
         font-weight: 700;
-        letter-spacing: -1.8px;
+        letter-spacing: -1.6px;
         fill: var(--headline);
       }
       .kicker {
@@ -75,7 +75,7 @@
       }
       .body {
         font-family: "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 500;
         letter-spacing: -0.2px;
         fill: var(--body);
@@ -120,25 +120,26 @@
   <text x="149" y="97" text-anchor="middle" class="micro">PROFILE / 2026</text>
 
   <text x="76" y="160" class="kicker">SYLEARN</text>
-  <text x="76" y="228" class="headline">Build tools that feel inevitable.</text>
-  <text x="76" y="270" class="body">AI systems, scientific software, and product-grade developer experiences.</text>
+  <text x="76" y="214" class="headline">Build tools that feel</text>
+  <text x="76" y="268" class="headline">inevitable.</text>
+  <text x="76" y="308" class="body">AI systems, scientific software, and product-grade developer experiences.</text>
 
   <g>
-    <rect x="76" y="300" width="208" height="46" rx="23" class="chip"/>
-    <text x="180" y="329" text-anchor="middle" class="micro">AI DEVELOPER</text>
+    <rect x="76" y="338" width="208" height="46" rx="23" class="chip"/>
+    <text x="180" y="367" text-anchor="middle" class="micro">AI DEVELOPER</text>
 
-    <rect x="300" y="300" width="184" height="46" rx="23" class="chip"/>
-    <text x="392" y="329" text-anchor="middle" class="micro">RESEARCHER</text>
+    <rect x="300" y="338" width="184" height="46" rx="23" class="chip"/>
+    <text x="392" y="367" text-anchor="middle" class="micro">RESEARCHER</text>
 
-    <rect x="500" y="300" width="164" height="46" rx="23" class="chip"/>
-    <text x="582" y="329" text-anchor="middle" class="micro">BUILDER</text>
+    <rect x="500" y="338" width="164" height="46" rx="23" class="chip"/>
+    <text x="582" y="367" text-anchor="middle" class="micro">BUILDER</text>
   </g>
 
   <g>
-    <rect x="788" y="148" width="312" height="132" rx="28" class="panel"/>
-    <text x="822" y="186" class="micro">CURRENT FOCUS</text>
-    <text x="822" y="220" class="body">Calm interfaces for agents</text>
-    <text x="822" y="250" class="body">Materials science x AI tooling</text>
-    <text x="822" y="280" class="body">CLI products with real polish</text>
+    <rect x="858" y="134" width="242" height="142" rx="28" class="panel"/>
+    <text x="892" y="174" class="micro">CURRENT FOCUS</text>
+    <text x="892" y="208" class="body">Calm interfaces</text>
+    <text x="892" y="236" class="body">for agents</text>
+    <text x="892" y="264" class="body">Materials science x AI</text>
   </g>
 </svg>
