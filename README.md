@@ -44,7 +44,7 @@ Tools at the crossroads of **artificial intelligence** and **scientific research
 <sub>**ELSEWHERE**</sub>
 
 <p>
-  <a href="https://github.com/sylearn">GitHub</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="mailto:sylearn@foxmail.com">Email</a>
+  <a href="mailto:sylearn@foxmail.com">Email</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.zhihu.com/people/sylearn">Zhihu</a>
 </p>
 
 &nbsp;
