@@ -1,41 +1,52 @@
-<svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">sylearn</title>
-  <desc id="desc">sylearn – AI Developer &amp; Researcher at Nanjing University</desc>
+  <desc id="desc">sylearn — AI Developer &amp; Researcher at Nanjing University</desc>
+
   <defs>
     <style>
       :root {
         --bg: #ffffff;
-        --border: #d0d7de;
+        --border: #d8dee4;
         --primary: #1F2328;
-        --secondary: #656d76;
-        --tertiary: #8b949e;
+        --secondary: #59636e;
+        --tertiary: #818b98;
         --accent: #0969da;
       }
       @media (prefers-color-scheme: dark) {
         :root {
           --bg: #0d1117;
-          --border: #30363d;
-          --primary: #e6edf3;
-          --secondary: #8b949e;
+          --border: #262c36;
+          --primary: #f0f6fc;
+          --secondary: #9198a1;
           --tertiary: #6e7681;
           --accent: #58a6ff;
         }
       }
+      .display  { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+      .mono     { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
     </style>
   </defs>
 
-  <!-- Card -->
-  <rect x="0.5" y="0.5" width="1199" height="219" rx="6" fill="var(--bg)" stroke="var(--border)"/>
+  <!-- Card surface -->
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="8" fill="var(--bg)" stroke="var(--border)"/>
 
-  <!-- Accent mark -->
-  <rect x="56" y="52" width="32" height="3" rx="1.5" fill="var(--accent)"/>
+  <!-- Breathing accent dot -->
+  <circle cx="80" cy="88" r="3.5" fill="var(--accent)">
+    <animate attributeName="opacity" values="0.45;1;0.45" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
 
-  <!-- Name -->
-  <text x="56" y="96" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="600" fill="var(--primary)" letter-spacing="-0.8">sylearn</text>
+  <!-- Display name -->
+  <text x="80" y="176" class="display" font-size="76" font-weight="600" fill="var(--primary)" letter-spacing="-2.2">sylearn</text>
 
-  <!-- Role -->
-  <text x="56" y="132" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="var(--secondary)">AI Developer · Researcher · Open Source Builder</text>
+  <!-- Subtitle -->
+  <text x="80" y="216" class="display" font-size="20" font-weight="400" fill="var(--secondary)" letter-spacing="-0.1">AI Developer &amp; Researcher</text>
 
-  <!-- Affiliation -->
-  <text x="56" y="164" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="var(--tertiary)">Nanjing University · Computational Materials Science × AI</text>
+  <!-- Affiliation meta -->
+  <text x="80" y="244" class="display" font-size="14" font-weight="400" fill="var(--tertiary)" letter-spacing="0.1">Nanjing University  ·  Computational Materials Science × AI</text>
+
+  <!-- Hairline rule -->
+  <rect x="80" y="274" width="40" height="1.25" fill="var(--accent)" opacity="0.9"/>
+
+  <!-- Micro meta (bottom right) -->
+  <text x="1120" y="312" class="mono" font-size="11" fill="var(--tertiary)" text-anchor="end" letter-spacing="0.6">2026  ·  NANJING</text>
 </svg>
