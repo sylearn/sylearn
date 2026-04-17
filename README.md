@@ -6,6 +6,8 @@
 
 &nbsp;
 
+> Software should disappear into the work.
+
 Tools at the crossroads of **artificial intelligence** and **scientific research** — from developer productivity to computational materials science.
 
 &nbsp;
@@ -23,10 +25,14 @@ Tools at the crossroads of **artificial intelligence** and **scientific research
 
 &nbsp;
 
-<sub>**OPEN&nbsp;&nbsp;SOURCE**</sub>
+<sub>**CONTRIBUTED&nbsp;&nbsp;TO**</sub>
+
+Pull requests merged into open-source AI &amp; research projects.
 
 <p>
-  &rarr;&nbsp;&nbsp;<a href="https://github.com/Significant-Gravitas/AutoGPT/pull/7110">AutoGPT</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/FoundationAgents/OpenManus/pull/14">OpenManus</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/aiming-lab/AutoResearchClaw/pull/102">AutoResearchClaw</a>
+  <code>&nbsp;↗&nbsp;</code>&nbsp;&nbsp;<a href="https://github.com/Significant-Gravitas/AutoGPT/pull/7110"><b>AutoGPT</b></a>&nbsp;&nbsp;<sub>Autonomous AI agent framework</sub><br/>
+  <code>&nbsp;↗&nbsp;</code>&nbsp;&nbsp;<a href="https://github.com/FoundationAgents/OpenManus/pull/14"><b>OpenManus</b></a>&nbsp;&nbsp;<sub>Open multi-agent foundation framework</sub><br/>
+  <code>&nbsp;↗&nbsp;</code>&nbsp;&nbsp;<a href="https://github.com/aiming-lab/AutoResearchClaw/pull/102"><b>AutoResearchClaw</b></a>&nbsp;&nbsp;<sub>Automated research pipeline</sub>
 </p>
 
 &nbsp;
@@ -46,6 +52,12 @@ Tools at the crossroads of **artificial intelligence** and **scientific research
 <p>
   <a href="mailto:sylearn@foxmail.com">Email</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.zhihu.com/people/sylearn">Zhihu</a>
 </p>
+
+&nbsp;
+
+<sub>**BY&nbsp;&nbsp;THE&nbsp;&nbsp;NUMBERS**</sub>
+
+<img width="100%" src="./.github/assets/stats-card.svg" alt="sylearn stats"/>
 
 &nbsp;
 
