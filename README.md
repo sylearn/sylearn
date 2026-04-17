@@ -25,6 +25,14 @@ Tools at the crossroads of **artificial intelligence** and **scientific research
 
 &nbsp;
 
+<sub>**RUNNING**</sub>
+
+<p>
+  <code>&nbsp;●&nbsp;</code>&nbsp;&nbsp;<a href="https://sucloud.vip"><b>sucloud.vip</b></a>&nbsp;&nbsp;<sub>Multi-model LLM API gateway</sub>
+</p>
+
+&nbsp;
+
 <sub>**CONTRIBUTED&nbsp;&nbsp;TO**</sub>
 
 Pull requests merged into open-source AI &amp; research projects.
