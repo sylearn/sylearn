@@ -62,20 +62,20 @@
               <text x="18" y="97" class="mono" font-size="10.5" fill="#7B93AF" letter-spacing="1.3">ON GITHUB SINCE</text>
             </g>
 
-  <rect x="48" y="246" width="90" height="32" rx="16" fill="#102034" fill-opacity="0.86" stroke="#7EE787" stroke-opacity="0.35"/>
+  <rect x="48" y="246" width="97" height="32" rx="16" fill="#102034" fill-opacity="0.86" stroke="#7EE787" stroke-opacity="0.35"/>
 <circle cx="64" cy="262" r="5" fill="#7EE787"/>
-<text x="76" y="267" class="sans" font-size="13" font-weight="600" fill="#DCEEFF">Python 9</text>
-<rect x="150" y="246" width="83" height="32" rx="16" fill="#102034" fill-opacity="0.86" stroke="#F6A04D" stroke-opacity="0.35"/>
-<circle cx="166" cy="262" r="5" fill="#F6A04D"/>
-<text x="178" y="267" class="sans" font-size="13" font-weight="600" fill="#DCEEFF">Swift 1</text>
-<rect x="245" y="246" width="69" height="32" rx="16" fill="#102034" fill-opacity="0.86" stroke="#F472B6" stroke-opacity="0.35"/>
-<circle cx="261" cy="262" r="5" fill="#F472B6"/>
-<text x="273" y="267" class="sans" font-size="13" font-weight="600" fill="#DCEEFF">CSS 1</text>
-<rect x="326" y="246" width="83" height="32" rx="16" fill="#102034" fill-opacity="0.86" stroke="#7AA2F7" stroke-opacity="0.35"/>
-<circle cx="342" cy="262" r="5" fill="#7AA2F7"/>
-<text x="354" y="267" class="sans" font-size="13" font-weight="600" fill="#DCEEFF">Shell 1</text>
-<rect x="421" y="246" width="160" height="32" rx="16" fill="#102034" fill-opacity="0.86" stroke="#F59E0B" stroke-opacity="0.35"/>
-<circle cx="437" cy="262" r="5" fill="#F59E0B"/>
-<text x="449" y="267" class="sans" font-size="13" font-weight="600" fill="#DCEEFF">Jupyter Notebook 1</text>
-  <text x="48" y="302" class="mono" font-size="11" fill="#7B93AF" letter-spacing="1.2">ACTIVE IN LAST 90 DAYS  ·  4  ·  LATEST SHIP  ·  AIUsage  ·  UPDATED  ·  2026.04.18 22:05 UTC+8</text>
+<text x="76" y="267" class="sans" font-size="13" font-weight="600" fill="#DCEEFF">Python 10</text>
+<rect x="157" y="246" width="83" height="32" rx="16" fill="#102034" fill-opacity="0.86" stroke="#F6A04D" stroke-opacity="0.35"/>
+<circle cx="173" cy="262" r="5" fill="#F6A04D"/>
+<text x="185" y="267" class="sans" font-size="13" font-weight="600" fill="#DCEEFF">Swift 1</text>
+<rect x="252" y="246" width="69" height="32" rx="16" fill="#102034" fill-opacity="0.86" stroke="#F472B6" stroke-opacity="0.35"/>
+<circle cx="268" cy="262" r="5" fill="#F472B6"/>
+<text x="280" y="267" class="sans" font-size="13" font-weight="600" fill="#DCEEFF">CSS 1</text>
+<rect x="333" y="246" width="83" height="32" rx="16" fill="#102034" fill-opacity="0.86" stroke="#7AA2F7" stroke-opacity="0.35"/>
+<circle cx="349" cy="262" r="5" fill="#7AA2F7"/>
+<text x="361" y="267" class="sans" font-size="13" font-weight="600" fill="#DCEEFF">Shell 1</text>
+<rect x="428" y="246" width="160" height="32" rx="16" fill="#102034" fill-opacity="0.86" stroke="#F59E0B" stroke-opacity="0.35"/>
+<circle cx="444" cy="262" r="5" fill="#F59E0B"/>
+<text x="456" y="267" class="sans" font-size="13" font-weight="600" fill="#DCEEFF">Jupyter Notebook 1</text>
+  <text x="48" y="302" class="mono" font-size="11" fill="#7B93AF" letter-spacing="1.2">ACTIVE IN LAST 90 DAYS  ·  4  ·  LATEST SHIP  ·  sylearn  ·  UPDATED  ·  2026.04.18 22:06 UTC+8</text>
 </svg>
