@@ -54,9 +54,44 @@
 
 &nbsp;
 
-<!-- ─── 03 · live stats ─────────────────────────────────────────────── -->
+<!-- ─── 03 · open source · external merged PRs ──────────────────────── -->
 
-<p><sub><code>— 03  ·  STATS</code></sub></p>
+<p><sub><code>— 03  ·  OPEN SOURCE</code></sub></p>
+
+<a href="https://github.com/pulls?q=is%3Apr+author%3Asylearn+is%3Amerged+-user%3Asylearn">
+  <img width="100%" src="./.github/assets/oss-card.svg" alt="external open-source merges"/>
+</a>
+
+<table width="100%" align="center" border="0">
+  <tr>
+    <td width="25%" align="center">
+      <a href="https://github.com/Significant-Gravitas/AutoGPT/pull/7110">
+        <img alt="AutoGPT #7110" src="https://img.shields.io/github/pulls/detail/state/Significant-Gravitas/AutoGPT/7110?style=flat-square&label=AutoGPT&labelColor=0A0A0A&color=30D158"/>
+      </a>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://github.com/FoundationAgents/OpenManus/pull/14">
+        <img alt="OpenManus #14" src="https://img.shields.io/github/pulls/detail/state/FoundationAgents/OpenManus/14?style=flat-square&label=OpenManus&labelColor=0A0A0A&color=30D158"/>
+      </a>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://github.com/aiming-lab/AutoResearchClaw/pull/102">
+        <img alt="AutoResearchClaw #102" src="https://img.shields.io/github/pulls/detail/state/aiming-lab/AutoResearchClaw/102?style=flat-square&label=AutoResearchClaw&labelColor=0A0A0A&color=30D158"/>
+      </a>
+    </td>
+    <td width="25%" align="center">
+      <a href="https://github.com/nguyenphutrong/quotio/pull/11">
+        <img alt="quotio #11" src="https://img.shields.io/github/pulls/detail/state/nguyenphutrong/quotio/11?style=flat-square&label=quotio&labelColor=0A0A0A&color=30D158"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+&nbsp;
+
+<!-- ─── 04 · live stats ─────────────────────────────────────────────── -->
+
+<p><sub><code>— 04  ·  STATS</code></sub></p>
 
 <p align="center">
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=sylearn&show_icons=true&hide_title=true&hide_rank=false&rank_icon=github&count_private=true&include_all_commits=true&bg_color=0A0A0A&title_color=F5F5F7&text_color=C7C7CC&icon_color=0A84FF&border_color=1C1C1E&hide_border=false&border_radius=14&ring_color=0A84FF"/>
@@ -69,15 +104,15 @@
 
 &nbsp;
 
-<!-- ─── 04 · contribution pulse ─────────────────────────────────────── -->
+<!-- ─── 05 · contribution pulse ─────────────────────────────────────── -->
 
-<p><sub><code>— 04  ·  PULSE</code></sub></p>
+<p><sub><code>— 05  ·  PULSE</code></sub></p>
 
 <img width="100%" alt="contribution graph" src="https://github-readme-activity-graph.vercel.app/graph?username=sylearn&custom_title=&bg_color=0A0A0A&color=F5F5F7&line=0A84FF&point=FF9F0A&area=true&area_color=0A84FF&hide_border=false&border_color=1C1C1E&radius=14"/>
 
 &nbsp;
 
-<!-- ─── 05 · quiet footer ───────────────────────────────────────────── -->
+<!-- ─── 06 · quiet footer ───────────────────────────────────────────── -->
 
 <p align="center">
   <sub>Designed for breathing room. Rebuilt live — stats refresh on every view, hero refreshes on every push.</sub>
