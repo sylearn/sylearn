@@ -1,51 +1,81 @@
-<svg width="1200" height="160" viewBox="0 0 1200 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">sylearn stats</title>
-  <desc id="desc">sylearn — followers, stars, repositories, year active</desc>
-
+<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">sylearn telemetry</title>
+  <desc id="desc">Live GitHub telemetry including followers, repositories, stars, forks, external merges, and top languages.</desc>
   <defs>
+    <linearGradient id="stats-bg" x1="70" y1="34" x2="1112" y2="316" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111D"/>
+      <stop offset="1" stop-color="#060C13"/>
+    </linearGradient>
     <style>
-      :root {
-        --bg: #ffffff;
-        --border: #d8dee4;
-        --primary: #1F2328;
-        --secondary: #59636e;
-        --tertiary: #818b98;
-        --accent: #0969da;
+      .sans {
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
       }
-      @media (prefers-color-scheme: dark) {
-        :root {
-          --bg: #0d1117;
-          --border: #262c36;
-          --primary: #f0f6fc;
-          --secondary: #9198a1;
-          --tertiary: #6e7681;
-          --accent: #58a6ff;
-        }
+      .mono {
+        font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       }
-      .display { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
-      .mono    { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
     </style>
   </defs>
 
-  <rect x="0.5" y="0.5" width="1199" height="159" rx="8" fill="var(--bg)" stroke="var(--border)"/>
+  <rect x="0.5" y="0.5" width="1199" height="329" rx="28" fill="url(#stats-bg)" stroke="#1A3147"/>
+  <text x="48" y="48" class="mono" font-size="12" fill="#7DD3FC" letter-spacing="2.4">SYSTEM TELEMETRY</text>
+  <text x="48" y="72" class="sans" font-size="18" font-weight="600" fill="#DDEBFF">Generated from public GitHub APIs, then refreshed into this repository automatically.</text>
 
-  <!-- col 1 · followers -->
-  <rect x="80"  y="48" width="28" height="1.25" fill="var(--accent)" opacity="0.85"/>
-  <text x="80"  y="104" class="display" font-size="52" font-weight="500" fill="var(--primary)" letter-spacing="-1.4">38</text>
-  <text x="80"  y="132" class="mono" font-size="10.5" fill="var(--tertiary)" letter-spacing="1.6">FOLLOWERS</text>
+            <g transform="translate(48 88)">
+              <rect width="160" height="126" rx="24" fill="#0E1B2C" fill-opacity="0.88" stroke="#344E6C" stroke-opacity="0.6"/>
+              <rect x="18" y="18" width="26" height="2.5" rx="1.25" fill="#7DD3FC"/>
+              <text x="18" y="72" class="sans" font-size="38" font-weight="760" fill="#F4F8FF">39</text>
+              <text x="18" y="97" class="mono" font-size="10.5" fill="#7B93AF" letter-spacing="1.3">FOLLOWERS</text>
+            </g>
 
-  <!-- col 2 · stars -->
-  <rect x="360" y="48" width="28" height="1.25" fill="var(--accent)" opacity="0.85"/>
-  <text x="360" y="104" class="display" font-size="52" font-weight="500" fill="var(--primary)" letter-spacing="-1.4">467</text>
-  <text x="360" y="132" class="mono" font-size="10.5" fill="var(--tertiary)" letter-spacing="1.6">STARS</text>
+            <g transform="translate(232 88)">
+              <rect width="160" height="126" rx="24" fill="#0E1B2C" fill-opacity="0.88" stroke="#344E6C" stroke-opacity="0.6"/>
+              <rect x="18" y="18" width="26" height="2.5" rx="1.25" fill="#7DD3FC"/>
+              <text x="18" y="72" class="sans" font-size="38" font-weight="760" fill="#F4F8FF">16</text>
+              <text x="18" y="97" class="mono" font-size="10.5" fill="#7B93AF" letter-spacing="1.3">ORIGINAL REPOS</text>
+            </g>
 
-  <!-- col 3 · repos -->
-  <rect x="640" y="48" width="28" height="1.25" fill="var(--accent)" opacity="0.85"/>
-  <text x="640" y="104" class="display" font-size="52" font-weight="500" fill="var(--primary)" letter-spacing="-1.4">16</text>
-  <text x="640" y="132" class="mono" font-size="10.5" fill="var(--tertiary)" letter-spacing="1.6">REPOSITORIES</text>
+            <g transform="translate(416 88)">
+              <rect width="160" height="126" rx="24" fill="#0E1B2C" fill-opacity="0.88" stroke="#344E6C" stroke-opacity="0.6"/>
+              <rect x="18" y="18" width="26" height="2.5" rx="1.25" fill="#7DD3FC"/>
+              <text x="18" y="72" class="sans" font-size="38" font-weight="760" fill="#F4F8FF">487</text>
+              <text x="18" y="97" class="mono" font-size="10.5" fill="#7B93AF" letter-spacing="1.3">REPO STARS</text>
+            </g>
 
-  <!-- col 4 · since -->
-  <rect x="920" y="48" width="28" height="1.25" fill="var(--accent)" opacity="0.85"/>
-  <text x="920" y="104" class="display" font-size="52" font-weight="500" fill="var(--primary)" letter-spacing="-1.4">2021</text>
-  <text x="920" y="132" class="mono" font-size="10.5" fill="var(--tertiary)" letter-spacing="1.6">ON GITHUB SINCE</text>
+            <g transform="translate(600 88)">
+              <rect width="160" height="126" rx="24" fill="#0E1B2C" fill-opacity="0.88" stroke="#344E6C" stroke-opacity="0.6"/>
+              <rect x="18" y="18" width="26" height="2.5" rx="1.25" fill="#7DD3FC"/>
+              <text x="18" y="72" class="sans" font-size="38" font-weight="760" fill="#F4F8FF">46</text>
+              <text x="18" y="97" class="mono" font-size="10.5" fill="#7B93AF" letter-spacing="1.3">REPO FORKS</text>
+            </g>
+
+            <g transform="translate(784 88)">
+              <rect width="160" height="126" rx="24" fill="#0E1B2C" fill-opacity="0.88" stroke="#344E6C" stroke-opacity="0.6"/>
+              <rect x="18" y="18" width="26" height="2.5" rx="1.25" fill="#7DD3FC"/>
+              <text x="18" y="72" class="sans" font-size="38" font-weight="760" fill="#F4F8FF">4</text>
+              <text x="18" y="97" class="mono" font-size="10.5" fill="#7B93AF" letter-spacing="1.3">EXTERNAL MERGES</text>
+            </g>
+
+            <g transform="translate(968 88)">
+              <rect width="160" height="126" rx="24" fill="#0E1B2C" fill-opacity="0.88" stroke="#344E6C" stroke-opacity="0.6"/>
+              <rect x="18" y="18" width="26" height="2.5" rx="1.25" fill="#7DD3FC"/>
+              <text x="18" y="72" class="sans" font-size="38" font-weight="760" fill="#F4F8FF">2021</text>
+              <text x="18" y="97" class="mono" font-size="10.5" fill="#7B93AF" letter-spacing="1.3">ON GITHUB SINCE</text>
+            </g>
+
+  <rect x="48" y="246" width="90" height="32" rx="16" fill="#102034" fill-opacity="0.86" stroke="#7EE787" stroke-opacity="0.35"/>
+<circle cx="64" cy="262" r="5" fill="#7EE787"/>
+<text x="76" y="267" class="sans" font-size="13" font-weight="600" fill="#DCEEFF">Python 9</text>
+<rect x="150" y="246" width="83" height="32" rx="16" fill="#102034" fill-opacity="0.86" stroke="#F6A04D" stroke-opacity="0.35"/>
+<circle cx="166" cy="262" r="5" fill="#F6A04D"/>
+<text x="178" y="267" class="sans" font-size="13" font-weight="600" fill="#DCEEFF">Swift 1</text>
+<rect x="245" y="246" width="69" height="32" rx="16" fill="#102034" fill-opacity="0.86" stroke="#F472B6" stroke-opacity="0.35"/>
+<circle cx="261" cy="262" r="5" fill="#F472B6"/>
+<text x="273" y="267" class="sans" font-size="13" font-weight="600" fill="#DCEEFF">CSS 1</text>
+<rect x="326" y="246" width="83" height="32" rx="16" fill="#102034" fill-opacity="0.86" stroke="#7AA2F7" stroke-opacity="0.35"/>
+<circle cx="342" cy="262" r="5" fill="#7AA2F7"/>
+<text x="354" y="267" class="sans" font-size="13" font-weight="600" fill="#DCEEFF">Shell 1</text>
+<rect x="421" y="246" width="160" height="32" rx="16" fill="#102034" fill-opacity="0.86" stroke="#F59E0B" stroke-opacity="0.35"/>
+<circle cx="437" cy="262" r="5" fill="#F59E0B"/>
+<text x="449" y="267" class="sans" font-size="13" font-weight="600" fill="#DCEEFF">Jupyter Notebook 1</text>
+  <text x="48" y="302" class="mono" font-size="11" fill="#7B93AF" letter-spacing="1.2">ACTIVE IN LAST 90 DAYS  ·  4  ·  LATEST SHIP  ·  AIUsage  ·  UPDATED  ·  2026.04.18 22:05 UTC+8</text>
 </svg>

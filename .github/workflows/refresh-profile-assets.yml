@@ -1,0 +1,46 @@
+name: Refresh Profile Assets
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+  push:
+    branches:
+      - master
+    paths:
+      - "README.md"
+      - "scripts/generate_profile_assets.py"
+      - ".github/workflows/refresh-profile-assets.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    if: github.repository == 'sylearn/sylearn'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate profile assets
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/generate_profile_assets.py
+
+      - name: Commit refreshed assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- .github/assets; then
+            exit 0
+          fi
+          git add .github/assets
+          git commit -m "chore: refresh profile assets"
+          git push
