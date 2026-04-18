@@ -355,39 +355,39 @@ def hero_svg(data: dict) -> str:
 def project_wall_svg(data: dict) -> str:
     cards = []
     width = 516
-    height = 148
+    height = 164
     card_positions = [
-        (48, 84),
-        (636, 84),
-        (48, 252),
-        (636, 252),
-        (48, 420),
-        (636, 420),
+        (48, 92),
+        (636, 92),
+        (48, 284),
+        (636, 284),
+        (48, 476),
+        (636, 476),
     ]
     for index, repo in enumerate(data["featured"][:6]):
         x, y = card_positions[index]
         lang_color = LANGUAGE_COLORS.get(repo["language"], "#7DD3FC")
-        desc = short_text(repo["pitch"], 72)
+        desc = short_text(repo["pitch"], 66)
         cards.append(
             f"""
             <g transform="translate({x} {y})">
               <rect width="{width}" height="{height}" rx="28" fill="#0E1A2B" fill-opacity="0.92" stroke="#324A67" stroke-opacity="0.68"/>
               <text x="26" y="30" class="mono" font-size="11" fill="#7DD3FC" letter-spacing="1.8">{xml(repo["eyebrow"].upper())}</text>
-              <text x="26" y="64" class="sans" font-size="30" font-weight="760" fill="#F4F8FF">{xml(repo["name"])}</text>
-              <text x="26" y="92" class="sans" font-size="16" font-weight="500" fill="#A9BED7">
+              <text x="26" y="66" class="sans" font-size="29" font-weight="760" fill="#F4F8FF">{xml(repo["name"])}</text>
+              <text x="26" y="102" class="sans" font-size="15" font-weight="500" fill="#A9BED7">
                 <tspan x="26" dy="0">{xml(desc)}</tspan>
               </text>
-              <rect x="26" y="110" width="102" height="22" rx="11" fill="#12253C" fill-opacity="0.95" stroke="#36506E" stroke-opacity="0.55"/>
-              <circle cx="42" cy="121" r="4.5" fill="{lang_color}"/>
-              <text x="54" y="125" class="mono" font-size="11" fill="#DDEBFF">{xml(repo["language"])}</text>
-              <text x="358" y="125" class="mono" font-size="11" fill="#93A9C2">{fmt_number(repo["stars"])}★</text>
-              <text x="422" y="125" class="mono" font-size="11" fill="#93A9C2">{fmt_number(repo["forks"])} forks</text>
-              <text x="26" y="130" class="mono" font-size="10.5" fill="#6F88A4">UPDATED {xml(repo["updated"].upper())}</text>
+              <line x1="26" y1="120" x2="{width - 26}" y2="120" stroke="#23384F" stroke-opacity="0.9"/>
+              <circle cx="31" cy="138" r="5" fill="{lang_color}"/>
+              <text x="43" y="142" class="mono" font-size="11" fill="#DDEBFF">{xml(repo["language"])}</text>
+              <text x="26" y="151" class="mono" font-size="10.5" fill="#6F88A4">UPDATED {xml(repo["updated"].upper())}</text>
+              <text x="{width - 122}" y="142" class="mono" font-size="11" fill="#93A9C2" text-anchor="end">{fmt_number(repo["stars"])}★</text>
+              <text x="{width - 26}" y="142" class="mono" font-size="11" fill="#93A9C2" text-anchor="end">{fmt_number(repo["forks"])} FORKS</text>
             </g>
             """
         )
 
-    return f"""<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+    return f"""<svg width="1200" height="672" viewBox="0 0 1200 672" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">sylearn featured work</title>
   <desc id="desc">Featured projects with live GitHub statistics and descriptions.</desc>
   <defs>
@@ -408,7 +408,7 @@ def project_wall_svg(data: dict) -> str:
       }}
     </style>
   </defs>
-  <rect x="0.5" y="0.5" width="1199" height="619" rx="28" fill="url(#wall-bg)" stroke="#1A3147"/>
+  <rect x="0.5" y="0.5" width="1199" height="671" rx="28" fill="url(#wall-bg)" stroke="#1A3147"/>
   <ellipse cx="1036" cy="96" rx="216" ry="144" fill="url(#wall-glow)"/>
   <text x="48" y="48" class="mono" font-size="12" fill="#7DD3FC" letter-spacing="2.4">FEATURED WORK</text>
   <text x="48" y="72" class="sans" font-size="18" font-weight="600" fill="#DDEBFF">The projects that best describe the intersection of AI product work, tooling systems, and research infrastructure.</text>
@@ -476,18 +476,18 @@ def oss_svg(data: dict) -> str:
     merges = data["external_merges"][:4]
     rows = []
     for index, item in enumerate(merges):
-        y = 78 + index * 42
+        y = 84 + index * 38
         rows.append(
             f"""
-            <g transform="translate(344 {y})">
-              <circle cx="10" cy="10" r="4" fill="#7DD3FC"/>
-              <text x="26" y="13" class="sans" font-size="16" font-weight="700" fill="#F3F8FF">{xml(item["repo"])}</text>
-              <text x="26" y="31" class="mono" font-size="11" fill="#85A1BE">{xml(short_text(item["title"], 62))}</text>
+            <g transform="translate(424 {y})">
+              <circle cx="8" cy="12" r="4" fill="#7DD3FC"/>
+              <text x="24" y="15" class="sans" font-size="15" font-weight="700" fill="#F3F8FF">{xml(item["repo"])}</text>
+              <text x="24" y="32" class="mono" font-size="11" fill="#85A1BE">{xml(short_text(item["title"], 74))}</text>
             </g>
             """
         )
 
-    return f"""<svg width="1200" height="246" viewBox="0 0 1200 246" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+    return f"""<svg width="1200" height="292" viewBox="0 0 1200 292" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">sylearn open source merges</title>
   <desc id="desc">Merged pull requests into external open-source repositories by sylearn.</desc>
   <defs>
@@ -509,15 +509,18 @@ def oss_svg(data: dict) -> str:
     </style>
   </defs>
 
-  <rect x="0.5" y="0.5" width="1199" height="245" rx="28" fill="url(#oss-bg)" stroke="#1A3147"/>
-  <ellipse cx="1016" cy="68" rx="152" ry="94" fill="url(#oss-glow)"/>
+  <rect x="0.5" y="0.5" width="1199" height="291" rx="28" fill="url(#oss-bg)" stroke="#1A3147"/>
+  <ellipse cx="1016" cy="84" rx="152" ry="94" fill="url(#oss-glow)"/>
+  <rect x="400" y="52" width="748" height="188" rx="24" fill="#0E1A2B" fill-opacity="0.86" stroke="#324A67" stroke-opacity="0.68"/>
+  <line x1="368" y1="56" x2="368" y2="236" stroke="#23384F" stroke-opacity="0.9"/>
   <text x="48" y="48" class="mono" font-size="12" fill="#7DD3FC" letter-spacing="2.4">OPEN SOURCE SIGNAL</text>
   <text x="48" y="82" class="sans" font-size="60" font-weight="780" fill="#F4F8FF">{xml(fmt_number(len(merges)))}</text>
   <text x="48" y="112" class="mono" font-size="12" fill="#7B93AF" letter-spacing="1.7">MERGED PRS INTO EXTERNAL PROJECTS</text>
-  <text x="48" y="154" class="sans" font-size="18" font-weight="600" fill="#DDEBFF">
+  <text x="48" y="158" class="sans" font-size="18" font-weight="600" fill="#DDEBFF">
     <tspan x="48" dy="0">Contributions across agent frameworks, research tooling,</tspan>
     <tspan x="48" dy="28">and developer products beyond this profile.</tspan>
   </text>
+  <text x="424" y="78" class="mono" font-size="11" fill="#7DD3FC" letter-spacing="1.8">LATEST EXTERNAL MERGES</text>
   {"".join(rows)}
 </svg>
 """

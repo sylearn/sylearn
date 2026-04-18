@@ -28,7 +28,7 @@
 
 <sub><b>TELEMETRY</b></sub>
 
-<img width="100%" alt="GitHub activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=sylearn&bg_color=08111D&color=DDEBFF&line=54D0FF&point=FFFFFF&area=true&hide_border=true"/>
+<img width="100%" alt="GitHub activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=sylearn&custom_title=Contribution%20Activity&bg_color=08111D&color=DDEBFF&line=54D0FF&point=FFFFFF&area=true&hide_border=true"/>
 
 <p align="center">
   <sub>Profile visuals refresh automatically via GitHub Actions and GitHub public APIs.</sub>
