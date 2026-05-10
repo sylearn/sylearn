@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T12:03:53.918642+08:00",
+  "generated_at": "2026-05-10T12:09:05.398573+08:00",
   "repos": [
     {
       "accent": "#0A84FF",
@@ -12,7 +12,7 @@
       "name": "AIUsage",
       "owner": "sylearn",
       "pushed_at": "2026-05-10T03:55:30Z",
-      "source": "cached",
+      "source": "live",
       "stargazers_count": 187,
       "topics": [
         "ai",
@@ -32,7 +32,7 @@
       "name": "AICode",
       "owner": "sylearn",
       "pushed_at": "2025-09-04T05:47:12Z",
-      "source": "cached",
+      "source": "live",
       "stargazers_count": 253,
       "topics": [
         "ai",
@@ -52,7 +52,7 @@
       "name": "Code-Composer",
       "owner": "sylearn",
       "pushed_at": "2024-10-09T10:28:13Z",
-      "source": "cached",
+      "source": "live",
       "stargazers_count": 30,
       "topics": [
         "developer-tools",
@@ -63,7 +63,7 @@
     {
       "accent": "#FF9F0A",
       "archived": false,
-      "description": "Research paper copiloting and reading assistance.",
+      "description": "Paper_Copilot 是一款基于向量索引和大模型的高级文献分析命令行工具，旨在帮助学术研究人员高效管理、检索和分析海量文献。通过本地自建知识库并与大模型的交互，它能够为用户提供专业且精准的解答，显著提升文献研究的效率与准确性。",
       "forks_count": 3,
       "full_name": "sylearn/paper_copilot",
       "html_url": "https://github.com/sylearn/paper_copilot",
@@ -71,19 +71,19 @@
       "name": "paper_copilot",
       "owner": "sylearn",
       "pushed_at": "2024-10-15T04:48:50Z",
-      "source": "cached",
+      "source": "live",
       "stargazers_count": 26,
       "topics": [
         "research",
         "papers",
         "copilot"
       ],
-      "updated_at": ""
+      "updated_at": "2026-05-06T03:40:56Z"
     },
     {
       "accent": "#FF9F0A",
       "archived": false,
-      "description": "Action-oriented AI agent experiments and workflows.",
+      "description": "ActionAI 是基于大语言模型的命令行交互框架，支持多种模型切换、MCP协议，提供流畅的交互式聊天体验。通过终端界面，可以与AI进行自然对话，并通过强大丰富MCP服务端，让AI具备文件读写、网络访问、代码执行等能力。 ",
       "forks_count": 1,
       "full_name": "sylearn/ActionAI",
       "html_url": "https://github.com/sylearn/ActionAI",
@@ -91,19 +91,19 @@
       "name": "ActionAI",
       "owner": "sylearn",
       "pushed_at": "2025-05-08T07:39:35Z",
-      "source": "cached",
+      "source": "live",
       "stargazers_count": 24,
       "topics": [
         "agents",
         "automation",
         "ai"
       ],
-      "updated_at": ""
+      "updated_at": "2026-05-09T06:36:07Z"
     },
     {
       "accent": "#FF9F0A",
       "archived": false,
-      "description": "Search tooling for structured content discovery.",
+      "description": "Terminal UI tool for searching materials from the Materials Project database",
       "forks_count": 3,
       "full_name": "sylearn/mp-search",
       "html_url": "https://github.com/sylearn/mp-search",
@@ -111,13 +111,13 @@
       "name": "mp-search",
       "owner": "sylearn",
       "pushed_at": "2026-03-22T13:22:25Z",
-      "source": "cached",
+      "source": "live",
       "stargazers_count": 5,
       "topics": [
         "search",
         "tools"
       ],
-      "updated_at": ""
+      "updated_at": "2026-04-07T05:59:15Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 <svg width="420" height="160" viewBox="0 0 420 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">ActionAI</title>
-  <desc id="desc">Action-oriented AI agent experiments and workflows.</desc>
+  <desc id="desc">ActionAI...</desc>
   <defs>
     <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(340 22) rotate(145) scale(190 145)">
       <stop stop-color="#FF9F0A" stop-opacity="0.22"/>
@@ -21,7 +21,7 @@
   <text x="40" y="34" class="mono" font-size="9" fill="#86868B" letter-spacing="1.2">AGENTS · AUTOMATION · AI</text>
 
   <text x="28" y="70" class="sans" font-size="28" font-weight="500" fill="#F5F5F7" letter-spacing="-0.9">ActionAI</text>
-  <text x="28" y="94" class="sans" font-size="13" font-weight="400" fill="#C7C7CC" letter-spacing="-0.1">Action-oriented AI agent experiments and workflows.</text>
+  <text x="28" y="94" class="sans" font-size="13" font-weight="400" fill="#C7C7CC" letter-spacing="-0.1">ActionAI...</text>
 
   <circle cx="30" cy="123" r="5" fill="#3776AB"/>
   <text x="44" y="127" class="mono" font-size="10" fill="#86868B" letter-spacing="0.8">PYTHON</text>
@@ -31,6 +31,6 @@
   <text x="392" y="127" text-anchor="end" class="mono" font-size="10" fill="#636366" letter-spacing="0.9">1y ago</text>
 
   <line x1="28" y1="140" x2="392" y2="140" stroke="#1C1C1E"/>
-  <text x="28" y="150" class="mono" font-size="8" fill="#48484A" letter-spacing="1.0">CACHED</text>
+  <text x="28" y="150" class="mono" font-size="8" fill="#48484A" letter-spacing="1.0">LIVE</text>
   <text x="392" y="150" text-anchor="end" class="mono" font-size="8" fill="#48484A" letter-spacing="1.0">LOCAL SVG</text>
 </svg>
