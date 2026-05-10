@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-05-10T12:03:53.918642+08:00",
+  "repos": [
+    {
+      "accent": "#0A84FF",
+      "archived": false,
+      "description": "One dashboard for all your AI subscriptions — quotas, costs, accounts, and Claude Code proxy.",
+      "forks_count": 11,
+      "full_name": "sylearn/AIUsage",
+      "html_url": "https://github.com/sylearn/AIUsage",
+      "language": "Swift",
+      "name": "AIUsage",
+      "owner": "sylearn",
+      "pushed_at": "2026-05-10T03:55:30Z",
+      "source": "cached",
+      "stargazers_count": 187,
+      "topics": [
+        "ai",
+        "dashboard",
+        "usage"
+      ],
+      "updated_at": "2026-05-10T03:55:34Z"
+    },
+    {
+      "accent": "#0A84FF",
+      "archived": false,
+      "description": "A comprehensive collection of AI-related utility scripts designed to simplify AI development workflows and automate common tasks. ",
+      "forks_count": 21,
+      "full_name": "sylearn/AICode",
+      "html_url": "https://github.com/sylearn/AICode",
+      "language": "Python",
+      "name": "AICode",
+      "owner": "sylearn",
+      "pushed_at": "2025-09-04T05:47:12Z",
+      "source": "cached",
+      "stargazers_count": 253,
+      "topics": [
+        "ai",
+        "coding",
+        "tools"
+      ],
+      "updated_at": "2026-04-25T15:24:51Z"
+    },
+    {
+      "accent": "#0A84FF",
+      "archived": false,
+      "description": "Coder Composer is an intelligent project coding assistant that enhances developer productivity by utilizing advanced language models for tasks such as code review, project planning, and file management.",
+      "forks_count": 5,
+      "full_name": "sylearn/Code-Composer",
+      "html_url": "https://github.com/sylearn/Code-Composer",
+      "language": "Python",
+      "name": "Code-Composer",
+      "owner": "sylearn",
+      "pushed_at": "2024-10-09T10:28:13Z",
+      "source": "cached",
+      "stargazers_count": 30,
+      "topics": [
+        "developer-tools",
+        "automation"
+      ],
+      "updated_at": "2026-04-27T00:59:16Z"
+    },
+    {
+      "accent": "#FF9F0A",
+      "archived": false,
+      "description": "Research paper copiloting and reading assistance.",
+      "forks_count": 3,
+      "full_name": "sylearn/paper_copilot",
+      "html_url": "https://github.com/sylearn/paper_copilot",
+      "language": "Python",
+      "name": "paper_copilot",
+      "owner": "sylearn",
+      "pushed_at": "2024-10-15T04:48:50Z",
+      "source": "cached",
+      "stargazers_count": 26,
+      "topics": [
+        "research",
+        "papers",
+        "copilot"
+      ],
+      "updated_at": ""
+    },
+    {
+      "accent": "#FF9F0A",
+      "archived": false,
+      "description": "Action-oriented AI agent experiments and workflows.",
+      "forks_count": 1,
+      "full_name": "sylearn/ActionAI",
+      "html_url": "https://github.com/sylearn/ActionAI",
+      "language": "Python",
+      "name": "ActionAI",
+      "owner": "sylearn",
+      "pushed_at": "2025-05-08T07:39:35Z",
+      "source": "cached",
+      "stargazers_count": 24,
+      "topics": [
+        "agents",
+        "automation",
+        "ai"
+      ],
+      "updated_at": ""
+    },
+    {
+      "accent": "#FF9F0A",
+      "archived": false,
+      "description": "Search tooling for structured content discovery.",
+      "forks_count": 3,
+      "full_name": "sylearn/mp-search",
+      "html_url": "https://github.com/sylearn/mp-search",
+      "language": "Python",
+      "name": "mp-search",
+      "owner": "sylearn",
+      "pushed_at": "2026-03-22T13:22:25Z",
+      "source": "cached",
+      "stargazers_count": 5,
+      "topics": [
+        "search",
+        "tools"
+      ],
+      "updated_at": ""
+    }
+  ]
+}

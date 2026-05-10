@@ -3,7 +3,7 @@ name: Refresh Profile Assets
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 */3 * * *"
   push:
     branches:
       - master
@@ -14,6 +14,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: refresh-profile-assets
+  cancel-in-progress: true
 
 jobs:
   refresh:
@@ -33,6 +37,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python3 scripts/generate_profile_assets.py
+
+      - name: Validate generated assets
+        run: |
+          test -s .github/assets/hero-card.svg
+          test -s .github/assets/oss-card.svg
+          test -s .github/assets/work/index.json
+          python3 -m json.tool .github/assets/work/index.json > /dev/null
+          for repo in AIUsage AICode Code-Composer paper_copilot ActionAI mp-search; do
+            test -s ".github/assets/work/${repo}.svg"
+          done
 
       - name: Commit refreshed assets
         run: |

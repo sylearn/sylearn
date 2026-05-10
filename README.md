@@ -1,4 +1,4 @@
-<!-- hero · custom SVG, regenerated every 6h by GitHub Actions from the live GitHub API -->
+<!-- hero · custom SVG, regenerated every 3h by GitHub Actions from the live GitHub API -->
 <img width="100%" src="./.github/assets/hero-card.svg" alt="sylearn"/>
 
 <p align="center">
@@ -19,34 +19,34 @@
   <tr>
     <td width="33%" align="center">
       <a href="https://github.com/sylearn/AIUsage">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sylearn&repo=AIUsage&show_owner=false&bg_color=0A0A0A&title_color=F5F5F7&text_color=86868B&icon_color=0A84FF&border_color=1C1C1E&hide_border=false&border_radius=14"/>
+        <img src="./.github/assets/work/AIUsage.svg" alt="AIUsage"/>
       </a>
     </td>
     <td width="33%" align="center">
       <a href="https://github.com/sylearn/AICode">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sylearn&repo=AICode&show_owner=false&bg_color=0A0A0A&title_color=F5F5F7&text_color=86868B&icon_color=0A84FF&border_color=1C1C1E&hide_border=false&border_radius=14"/>
+        <img src="./.github/assets/work/AICode.svg" alt="AICode"/>
       </a>
     </td>
     <td width="33%" align="center">
       <a href="https://github.com/sylearn/Code-Composer">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sylearn&repo=Code-Composer&show_owner=false&bg_color=0A0A0A&title_color=F5F5F7&text_color=86868B&icon_color=0A84FF&border_color=1C1C1E&hide_border=false&border_radius=14"/>
+        <img src="./.github/assets/work/Code-Composer.svg" alt="Code-Composer"/>
       </a>
     </td>
   </tr>
   <tr>
     <td width="33%" align="center">
       <a href="https://github.com/sylearn/paper_copilot">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sylearn&repo=paper_copilot&show_owner=false&bg_color=0A0A0A&title_color=F5F5F7&text_color=86868B&icon_color=FF9F0A&border_color=1C1C1E&hide_border=false&border_radius=14"/>
+        <img src="./.github/assets/work/paper_copilot.svg" alt="paper_copilot"/>
       </a>
     </td>
     <td width="33%" align="center">
       <a href="https://github.com/sylearn/ActionAI">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sylearn&repo=ActionAI&show_owner=false&bg_color=0A0A0A&title_color=F5F5F7&text_color=86868B&icon_color=FF9F0A&border_color=1C1C1E&hide_border=false&border_radius=14"/>
+        <img src="./.github/assets/work/ActionAI.svg" alt="ActionAI"/>
       </a>
     </td>
     <td width="33%" align="center">
       <a href="https://github.com/sylearn/mp-search">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=sylearn&repo=mp-search&show_owner=false&bg_color=0A0A0A&title_color=F5F5F7&text_color=86868B&icon_color=FF9F0A&border_color=1C1C1E&hide_border=false&border_radius=14"/>
+        <img src="./.github/assets/work/mp-search.svg" alt="mp-search"/>
       </a>
     </td>
   </tr>
@@ -115,5 +115,5 @@
 <!-- ─── 06 · quiet footer ───────────────────────────────────────────── -->
 
 <p align="center">
-  <sub>Designed for breathing room. Rebuilt live — stats refresh on every view, hero refreshes on every push.</sub>
+  <sub>Designed for breathing room. Core profile assets rebuild on schedule from GitHub's API.</sub>
 </p>
