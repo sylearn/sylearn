@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-10T12:09:05.398573+08:00",
+  "generated_at": "2026-05-10T16:21:31.141855+08:00",
   "repos": [
     {
       "accent": "#0A84FF",
       "archived": false,
       "description": "One dashboard for all your AI subscriptions — quotas, costs, accounts, and Claude Code proxy.",
-      "forks_count": 11,
+      "forks_count": 12,
       "full_name": "sylearn/AIUsage",
       "html_url": "https://github.com/sylearn/AIUsage",
       "language": "Swift",
