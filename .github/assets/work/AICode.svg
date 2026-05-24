@@ -28,7 +28,7 @@
 
   <text x="196" y="127" class="mono" font-size="10" fill="#86868B" letter-spacing="0.9">★ 253</text>
   <text x="254" y="127" class="mono" font-size="10" fill="#86868B" letter-spacing="0.9">⑂ 20</text>
-  <text x="392" y="127" text-anchor="end" class="mono" font-size="10" fill="#636366" letter-spacing="0.9">10d ago</text>
+  <text x="392" y="127" text-anchor="end" class="mono" font-size="10" fill="#636366" letter-spacing="0.9">11d ago</text>
 
   <line x1="28" y1="140" x2="392" y2="140" stroke="#1C1C1E"/>
   <text x="28" y="150" class="mono" font-size="8" fill="#48484A" letter-spacing="1.0">LIVE</text>
