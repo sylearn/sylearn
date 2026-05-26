@@ -40,7 +40,7 @@
 
             <g transform="translate(770 288)">
               <line x1="0" y1="0" x2="28" y2="0" stroke="#3A3A3C" stroke-width="1"/>
-              <text x="0" y="42" class="num" font-size="38" font-weight="300" fill="#F5F5F7" letter-spacing="-1.2">639</text>
+              <text x="0" y="42" class="num" font-size="38" font-weight="300" fill="#F5F5F7" letter-spacing="-1.2">641</text>
               <text x="0" y="62" class="mono" font-size="9" fill="#86868B" letter-spacing="1.4">STARS</text>
             </g>
 
@@ -58,7 +58,7 @@
 
 
   <text x="80" y="372" class="mono" font-size="10" fill="#636366" letter-spacing="1.4">LATEST  ·  SYLEARN</text>
-  <text x="1120" y="372" text-anchor="end" class="mono" font-size="10" fill="#636366" letter-spacing="1.4">SYNC  ·  2026.05.26  12:32  UTC+8</text>
+  <text x="1120" y="372" text-anchor="end" class="mono" font-size="10" fill="#636366" letter-spacing="1.4">SYNC  ·  2026.05.26  18:17  UTC+8</text>
 
   <text x="1120" y="82" text-anchor="end" class="mono" font-size="10" fill="#48484A" letter-spacing="2">— 01</text>
 </svg>
