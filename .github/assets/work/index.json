@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T17:46:32.126310+08:00",
+  "generated_at": "2026-08-18T21:05:09.567115+08:00",
   "repos": [
     {
       "accent": "#0A84FF",
@@ -64,7 +64,7 @@
       "accent": "#FF9F0A",
       "archived": false,
       "description": "Paper_Copilot 是一款基于向量索引和大模型的高级文献分析命令行工具，旨在帮助学术研究人员高效管理、检索和分析海量文献。通过本地自建知识库并与大模型的交互，它能够为用户提供专业且精准的解答，显著提升文献研究的效率与准确性。",
-      "forks_count": 3,
+      "forks_count": 4,
       "full_name": "sylearn/paper_copilot",
       "html_url": "https://github.com/sylearn/paper_copilot",
       "language": "Python",
