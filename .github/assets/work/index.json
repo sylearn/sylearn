@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T11:58:10.611253+08:00",
+  "generated_at": "2026-08-21T15:04:48.306630+08:00",
   "repos": [
     {
       "accent": "#0A84FF",
@@ -11,15 +11,15 @@
       "language": "Swift",
       "name": "AIUsage",
       "owner": "sylearn",
-      "pushed_at": "2026-08-16T10:15:42Z",
+      "pushed_at": "2026-08-21T05:56:33Z",
       "source": "live",
-      "stargazers_count": 540,
+      "stargazers_count": 546,
       "topics": [
         "ai",
         "dashboard",
         "usage"
       ],
-      "updated_at": "2026-08-21T03:51:24Z"
+      "updated_at": "2026-08-21T07:00:45Z"
     },
     {
       "accent": "#0A84FF",
