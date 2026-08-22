@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T23:33:17.039008+08:00",
+  "generated_at": "2026-08-23T02:46:28.418234+08:00",
   "repos": [
     {
       "accent": "#0A84FF",
@@ -13,13 +13,13 @@
       "owner": "sylearn",
       "pushed_at": "2026-08-22T04:49:18Z",
       "source": "live",
-      "stargazers_count": 603,
+      "stargazers_count": 608,
       "topics": [
         "ai",
         "dashboard",
         "usage"
       ],
-      "updated_at": "2026-08-22T15:32:20Z"
+      "updated_at": "2026-08-22T18:35:30Z"
     },
     {
       "accent": "#0A84FF",
@@ -33,13 +33,13 @@
       "owner": "sylearn",
       "pushed_at": "2026-05-13T09:45:36Z",
       "source": "live",
-      "stargazers_count": 255,
+      "stargazers_count": 254,
       "topics": [
         "ai",
         "coding",
         "tools"
       ],
-      "updated_at": "2026-08-12T07:32:16Z"
+      "updated_at": "2026-08-22T15:45:10Z"
     },
     {
       "accent": "#0A84FF",
