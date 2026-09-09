@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-09T12:36:31.823223+08:00",
+  "generated_at": "2026-09-09T19:17:32.232269+08:00",
   "repos": [
     {
       "accent": "#0A84FF",
       "archived": false,
       "description": "One dashboard to manage all your AI subscriptions — track quotas, costs, accounts, Claude Code proxy, and Codex proxy in one place.",
-      "forks_count": 50,
+      "forks_count": 49,
       "full_name": "sylearn/AIUsage",
       "html_url": "https://github.com/sylearn/AIUsage",
       "language": "Swift",
@@ -13,13 +13,13 @@
       "owner": "sylearn",
       "pushed_at": "2026-09-07T08:37:17Z",
       "source": "live",
-      "stargazers_count": 662,
+      "stargazers_count": 661,
       "topics": [
         "ai",
         "dashboard",
         "usage"
       ],
-      "updated_at": "2026-09-08T11:58:27Z"
+      "updated_at": "2026-09-09T06:09:28Z"
     },
     {
       "accent": "#0A84FF",
