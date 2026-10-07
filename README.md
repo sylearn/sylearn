@@ -2,7 +2,7 @@
 <img width="100%" src="./.github/assets/hero-card.svg" alt="sylearn"/>
 
 <p align="center">
-  <a href="https://api-models.com"><img alt="site" src="https://img.shields.io/badge/sucloud.vip-F5F5F7?style=flat-square&labelColor=0A0A0A&logo=safari&logoColor=F5F5F7"/></a>
+  <a href="https://api-models.com"><img alt="site" src="https://img.shields.io/badge/api-models.com-F5F5F7?style=flat-square&labelColor=0A0A0A&logo=safari&logoColor=F5F5F7"/></a>
   <a href="mailto:sylearn@foxmail.com"><img alt="email" src="https://img.shields.io/badge/sylearn@foxmail.com-C7C7CC?style=flat-square&labelColor=0A0A0A&logo=maildotru&logoColor=C7C7CC"/></a>
   <a href="https://www.zhihu.com/people/sylearn"><img alt="zhihu" src="https://img.shields.io/badge/zhihu-C7C7CC?style=flat-square&labelColor=0A0A0A&logo=zhihu&logoColor=0066FF"/></a>
   <a href="https://github.com/sylearn?tab=followers"><img alt="followers" src="https://img.shields.io/github/followers/sylearn?style=flat-square&label=followers&labelColor=0A0A0A&color=1C1C1E"/></a>
