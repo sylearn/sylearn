@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T02:30:30.217119+08:00",
+  "generated_at": "2026-11-18T10:52:22.008299+08:00",
   "repos": [
     {
       "accent": "#0A84FF",
@@ -13,13 +13,13 @@
       "owner": "sylearn",
       "pushed_at": "2026-11-14T12:48:08Z",
       "source": "live",
-      "stargazers_count": 744,
+      "stargazers_count": 743,
       "topics": [
         "ai",
         "dashboard",
         "usage"
       ],
-      "updated_at": "2026-11-16T07:43:56Z"
+      "updated_at": "2026-11-17T20:52:18Z"
     },
     {
       "accent": "#0A84FF",
